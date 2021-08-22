@@ -1,0 +1,40 @@
+main{
+    height: 100vh;
+    background:linear-gradient(to bottom right, #00bfff, #1affff);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.glass{
+    height: 60vh;
+    width: 60%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255,255,255,0.7), 
+        rgba(255,255,255,0.3));
+    
+    display: flex;
+    border-radius: 20px;
+    z-index: 1;
+    margin: auto;
+    padding: 4%;
+    
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(1em);
+    
+}
+.title{
+    text-align: center;
+
+}
+
+.submit-box{
+    width: 200px;
+    background:linear-gradient(to bottom right, #00bfff, #1affff);
+    border-radius: 7px;
+    
+}
